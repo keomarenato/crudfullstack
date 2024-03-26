@@ -1,0 +1,202 @@
+.cadastro-apartamento-container {
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #007bff;
+  height: 50vh;  
+}
+
+
+.cadastro-apartamento-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+
+.cadastro-apartamento-container form {
+  display: flex;
+  flex-direction: column;
+  width: 70%; /* Ajustando a largura para 100% */
+}
+
+.cadastro-apartamento-container form div {
+margin-bottom:  15px;
+ 
+}
+
+.cadastro-apartamento-container form label {
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+  width: 20%;
+}
+
+.cadastro-apartamento-container form input,
+.cadastro-apartamento-container form textarea {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px
+
+}
+
+.cadastro-apartamento-container form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cadastro-apartamento-container form button:hover {
+  background-color: #0056b3;
+}
+
+ 
+/* Estilo para o modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formularioContainer{
+  width: 50%;
+  margin: 0 auto;
+  border: 3px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+/* Estilo para o modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* fundo semi-transparente */
+  z-index: 9999; /* garante que o modal esteja na parte superior */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+ 
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+ 
+
+/* .modal form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+ 
+} */
+ 
+
+.close:hover {
+  color: darkred;
+}
+
+/* Estilo para o botão de abertura do modal */
+.buttonModal {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;  
+  margin-bottom: 5px;
+}
+
+.buttonModal:hover {
+  background-color: #0056b3;  
+}
+
+.buttonEditarExcluir {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;  
+  margin-bottom: 5px; 
+  float: right;
+}
+
+.buttonEditarExcluir:hover {
+  background-color: #0056b3;  
+}
+
+.buttonEditar {
+  background-color: green;
+  color: #fff;
+  padding: 4px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;  
+  margin-bottom: 5px; 
+  float: right;  
+  margin-top: -20px;
+}
+
+.buttonEditar:hover {
+  background-color: #90ee90 ;
+ 
+}
+
+.buttonExcluir {
+  background-color: red;
+  color: #fff;
+  padding: 4px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;  
+  margin-bottom: 5px; 
+  float: right;
+  margin-top: -20px;
+ 
+  
+}
+
+.buttonExcluir:hover {
+  background-color: #ff6961;
+}
+
